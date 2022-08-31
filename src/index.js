@@ -24,9 +24,9 @@ const createCountriesList = (countries) => {
         <img src="${countries[0].flags.svg}" alt="" width="80px" height="45px" class="country__flag">
         <p class="country__name">${countries[0].name.official}</p>
         <ul class="country__info-list">
-        <li class="country__item capital">${countries[0].capital}</li>
-        <li class="country__item population">${countries[0].population}</li>
-        <li class="country__item languages">${Object.values(countries[0].languages)}</li>
+        <li class="country__item capital"><b>Capital:</b> ${countries[0].capital}</li>
+        <li class="country__item population"><b>Population:</b> ${countries[0].population}</li>
+        <li class="country__item languages"><b>Languages:</b> ${Object.values(countries[0].languages)}</li>
         </ul>
         </div>`
        
